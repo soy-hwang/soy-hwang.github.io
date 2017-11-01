@@ -1,0 +1,59 @@
+<html>
+<head lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../myshuttle.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="infopage"><a href="javascript:history.back()">
+        <img src="../images/logo_transp.png" class="logo"/>
+        </a>
+        <div class="imprint">
+
+    
+    <h2>Impressum</h2>
+        <br>
+    
+    <h2>Angaben gem&auml;&szlig; &sect; 5 TMG:</h2>
+
+    <p>Keywords.de GmbH
+        <br>Adams-Lehmann-Str. 56
+        <br>80797 München</p>
+
+    <p>
+        <br />
+    </p>
+
+    <h2>Vertreten durch:</h2>
+
+    <p>Michael Dieckmann</p>
+
+    <p>
+        <br />
+    </p>
+
+    <h2>Kontakt:</h2>
+
+    <p>Telefon: +498923513343<br>
+        E-Mail: testa@keywords.de</p>
+
+    <p>
+        <br />
+    </p>
+
+    <h2>Umsatzsteuer-ID:</h2>
+
+    <p>Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect;27 a Umsatzsteuergesetz:<br>DE257105537</p>
+
+    <p>
+        <br />
+    </p>
+
+    <p>Die Firma Keywords.de GmbH wird unter der Handelsregister-Nummer HRB 170181 im Handelsregister München gef&uuml;hrt.</p>
+
+</div></div>
+       
+</body>
+</html>

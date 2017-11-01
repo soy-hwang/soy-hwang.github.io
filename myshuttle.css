@@ -1,6 +1,5 @@
 body, html{
     max-width:100%;
-    height:100%;
     top:0;
     left:0;
     margin:0;
@@ -16,11 +15,11 @@ body, html{
 
 .imprint{
     position:absolute;
-    top:20vh;
+    top:10vh;
     left:10vw;
     background-color:rgba(255,255,255,0);
     max-width:80vw;
-    height:50vh;
+    height:80vh;
     font-size:12px;
     overflow-y:scroll;
 }
@@ -65,16 +64,19 @@ h2{
     text-align: center;
     z-index: 20;
 
-    
-    
-    
-    
+}
+
+.thanks{
+    margin-left:10vw;
+    margin-top:30vh;
+    width:80vw;
+    text-align: center;
+    color:white; 
 }
 
 .infopage{
     width:100vw;
     height:100vh;
-
     margin:0;
     padding:0;
     background-color: #00CCCD;
@@ -147,7 +149,7 @@ h1{
 display: flex;
 align-items: center;
     justify-content: center;
-    
+    margin-bottom: 10px;
 }
 
 
@@ -161,11 +163,30 @@ align-items: center;
 
 }
 
+.checkcontainer.required {
+    border: 1px solid #8b1800;
+}
+input[type="submit"]:disabled {
+    background-color: #aaa;
+}
+
 .gap{
     width:60px;
     height:20px;
 }
 
+input[type="checkbox"] {
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+}
+
+.accepttxt{
+    float:right;
+    color:#4C4C4C;
+    font-weight:400;
+    font-size: 1vw;
+}
 
 .form input {
     font-size: 1.3vw;
@@ -201,6 +222,24 @@ align-items: center;
     color:#fff;    
 }
 
+.button_bottom{
+    margin-top:20px;
+    background-color: #4C4C4C;
+    width:40vw;
+    text-align: center;
+    padding:10px;
+    
+}
+.button_bottom a{
+    text-decoration: none;
+    color:white;
+    font-size : 1.2rem;
+}
+
+.button_bottom{
+    
+}
+
 .button_scrollup{
     position: absolute;
     bottom:50px;
@@ -219,6 +258,7 @@ align-items: center;
     justify-content: center;
 
 }
+
 
 .usptxt{
     width:70vw;
@@ -411,6 +451,9 @@ align-items: center;
 
 }
 
+.thanks{
+    
+}
 
 @media (max-width: 800px) {
     
@@ -632,5 +675,18 @@ align-items: center;
                 color:white;
 
             }
+            .accepttxt{
+                width:65vw;
+                float:right;
+                color:#4C4C4C;
+                font-weight:400;
+                font-size: 10px;
+            }
+                input[type="checkbox"] {
+                display: inline-block;
+                width: 16px;
+                height: 12px;
+            }
+
 
     }
