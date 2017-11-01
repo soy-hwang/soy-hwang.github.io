@@ -4,9 +4,13 @@
         console.log(winH);
     
   $(document).on('click', '[class="button_scrollup"]', function () {
-      console.log("clicked");
     $('body,html').animate({ scrollTop: winH }, 500);
-            console.log("animated");
+
+  });
+    
+    $(document).on('click', '[class="cookieok"]', function () {
+      console.log("clicked");
+    $('[class="cookiebar"]').hide();
 
   });
     

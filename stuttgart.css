@@ -14,55 +14,6 @@ body, html{
     
 }
 
-.imprint{
-    position:absolute;
-    top:15vh;
-    background-color:rgba(255,255,255,0);
-    max-width:80vw;
-    height:50vh;
-    font-size:12px;
-    overflow-y:scroll;
-}
-
-h2{
-    font-size: 15px;
-}
-
-
-.cookiebar{
-    width:96vw;
-    max-height:40px;
-    background-color:rgba(255,255,255,0.6);
-    z-index: 100;
-    position: fixed;
-    top:0;
-    left:0;
-    color:#7C7C7C;
-    font-size:10px;
-    text-align: left;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding:5px 2vw;
-    
-}
-
-.cookieok{
-    margin-left:10px;
-    min-width:100px;
-    height:20px;
-    padding-top: 6px;
-    background-color: rgba(0,0,0,0.1);
-    font-weight: 700;
-    font-size: 13px;
-    color: white;
-    border-radius: 4px;
-    text-align: center;
-    
-    
-    
-    
-}
 .heropage{
     width:100vw;
     height:100vh;
@@ -89,8 +40,8 @@ h2{
 }
 
 .logo{
-    top:40px;
-    left:40px;
+    top:20px;
+    left:20px;
     position:absolute;
     width:12vw;
     min-width:180px;
