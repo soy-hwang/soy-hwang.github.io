@@ -403,7 +403,7 @@ align-items: center;
         .heropage{
             background-image: url("../images/heroimage_m.png");
             background-repeat: no-repeat;
-            background-size: auto 100%;
+            background-size: auto 100vh;
 
         }
         .herotxt{
