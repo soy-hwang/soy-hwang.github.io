@@ -333,8 +333,7 @@ align-items: center;
 }
 
 
-@media (max-width: 1000px) {
-    
+@media (max-width: 800px) {
         .heropage{
             background-image: url("../images/heroimage_m.png");
             background-repeat: no-repeat;
@@ -552,9 +551,5 @@ align-items: center;
                 color:white;
 
             }
-
-
-
-
 
     }
